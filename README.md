@@ -26,3 +26,12 @@ $ if string match -rq 'vim?' $EDITOR
 end
 vi or vim
 ```
+
+### Slice string in fish
+
+```fish
+$ echo (seq 3)[2..]
+2 3
+$ echo (echo a b c | string split ' ')[2..]
+b c
+```
