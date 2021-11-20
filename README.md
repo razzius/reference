@@ -139,3 +139,7 @@ Start with `#!/usr/bin/env fish`
 [`type -q zoxide`](https://stackoverflow.com/questions/42831558/check-if-a-program-exists-from-a-fish-script)
 
 (Using [zoxide](https://github.com/ajeetdsouza/zoxide) as an example)
+
+### How to make `less` always run with `-R` flag
+
+[export LESS="-R"](https://stackoverflow.com/a/17227192/1636613)
