@@ -85,3 +85,18 @@ $ tree
 
 This is so that for example `eat` isn't found in `create`.
 
+### Vim `command` that runs multiple commands
+
+Tell the first that it can be followed with another using `-bar`:
+
+```viml
+command! -bar Terminal terminal
+```
+
+Then create a command that uses `|` to run multiple commands:
+
+```viml
+command! FullscreenTerminal Terminal|:only
+```
+
+[Source](https://unix.stackexchange.com/a/144575/124123)
