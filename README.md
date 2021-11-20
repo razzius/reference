@@ -143,3 +143,18 @@ Start with `#!/usr/bin/env fish`
 ### How to make `less` always run with `-R` flag
 
 [export LESS="-R"](https://stackoverflow.com/a/17227192/1636613)
+
+### How to parse and access named arguments with fish
+
+```fish
+$ function arg_test
+    argparse d/directory= -- $argv
+    echo $_flag_directory
+  end
+$ arg_test -d 3
+3
+```
+
+[See n/name=](https://fishshell.com/docs/current/cmds/argparse.html#example-option-specs).
+
+> `n/name=` means that both `-n` and `--name` are valid. It requires a value and can be used at most once. If the flag is seen then `_flag_n` and `_flag_name` will be set with the single mandatory value associated with the flag.
