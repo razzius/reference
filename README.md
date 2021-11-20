@@ -129,3 +129,7 @@ $ git stat
 ### Github website submit comment and close issue
 
 ⌘ shift enter
+
+### How to make fish script executable
+
+Start with `#!/usr/bin/env fish`
