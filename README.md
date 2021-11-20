@@ -133,3 +133,9 @@ $ git stat
 ### How to make fish script executable
 
 Start with `#!/usr/bin/env fish`
+
+### Check if argument is executable in fish
+
+[`type -q zoxide`](https://stackoverflow.com/questions/42831558/check-if-a-program-exists-from-a-fish-script)
+
+(Using [zoxide](https://github.com/ajeetdsouza/zoxide) as an example)
