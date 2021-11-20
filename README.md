@@ -158,3 +158,8 @@ $ arg_test -d 3
 [See n/name=](https://fishshell.com/docs/current/cmds/argparse.html#example-option-specs).
 
 > `n/name=` means that both `-n` and `--name` are valid. It requires a value and can be used at most once. If the flag is seen then `_flag_n` and `_flag_name` will be set with the single mandatory value associated with the flag.
+
+
+### How to show git diff inline, by words
+
+`git diff --color-words`
