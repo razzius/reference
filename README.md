@@ -79,3 +79,9 @@ $ tree
 3 directories, 2 files
 ```
 
+### Vim search for whole word
+
+[`/\<word\>`](https://stackoverflow.com/a/3845287/1636613) (though starting with \< is usually enough)
+
+This is so that for example `eat` isn't found in `create`.
+
