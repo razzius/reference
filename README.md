@@ -125,3 +125,7 @@ $ git stat
 ## main...origin/main
 ?? commit.fish
 ```
+
+### Github website submit comment and close issue
+
+⌘ shift enter
