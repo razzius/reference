@@ -100,3 +100,14 @@ command! FullscreenTerminal Terminal|:only
 ```
 
 [Source](https://unix.stackexchange.com/a/144575/124123)
+
+### `tree` do not show summary
+
+[`tree --noreport`](https://manpages.ubuntu.com/manpages/trusty/man1/tree.1.html)
+
+```fish
+$ tree --noreport
+.
+└── dir
+    └── some_file
+```
