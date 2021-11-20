@@ -111,3 +111,17 @@ $ tree --noreport
 └── dir
     └── some_file
 ```
+
+### `funcsave` to current directory
+
+`funcsave -d .` (from `man funcsave`)
+
+```fish
+$ function commit
+      git-add-commit (echo (cat README.md | grep '###' | tail -1 | string split ' ')[2..])
+  end
+$ funcsave -d . commit
+$ git stat
+## main...origin/main
+?? commit.fish
+```
