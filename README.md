@@ -33,6 +33,8 @@ vi or vim
 
 Called "index range expansion". Works on whole lines.
 
+Since [fish 3.2](https://github.com/fish-shell/fish-shell/blob/master/CHANGELOG.rst#fish-320-released-march-1-2021) the end index is optional.
+
 ```fish
 $ echo (seq 3)[2..]
 2 3
