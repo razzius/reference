@@ -199,3 +199,7 @@ $ printf %02x 15
 ### How to make dir different for 1 command in fish?
 
 [Open question #3](github.com/razzius/reference/issues/3)
+
+### How to do inline parenthesized commands in fish?
+
+[Open question #4](github.com/razzius/reference/issues/4)
