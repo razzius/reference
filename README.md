@@ -211,3 +211,7 @@ nnoremap <leader>ih :call MyFunction()<cr>
 ```
 
 [link](https://stackoverflow.com/questions/26926557/key-map-to-call-function-in-a-plugin)
+
+### How to open emacs with no config file
+
+[`emacs -q`](https://stackoverflow.com/a/19194832/1636613)
