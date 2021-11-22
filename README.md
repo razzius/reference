@@ -203,3 +203,11 @@ $ printf %02x 15
 ### How to do inline parenthesized commands in fish?
 
 [Open question #4](github.com/razzius/reference/issues/4)
+
+### Vim call function in key remap
+
+```viml
+nnoremap <leader>ih :call MyFunction()<cr>
+```
+
+[link](https://stackoverflow.com/questions/26926557/key-map-to-call-function-in-a-plugin)
