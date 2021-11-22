@@ -215,3 +215,7 @@ nnoremap <leader>ih :call MyFunction()<cr>
 ### How to open emacs with no config file
 
 [`emacs -q`](https://stackoverflow.com/a/19194832/1636613)
+
+### How to open emacs in terminal
+
+[`emacs -nw`](https://unix.stackexchange.com/a/165725/124123)
