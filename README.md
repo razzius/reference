@@ -165,6 +165,7 @@ $ arg_test -d 3
 ### How to show git diff inline, by words
 
 `git diff --color-words`
+
 ### Decimal to hex in shell
 
 [`printf %x <number>`](https://stackoverflow.com/a/378839/1636613)
@@ -194,3 +195,7 @@ $ printf %02x 15
 ### Why does dividing a 16-bit number by 257 convert it to 8-bit?
 
 [Open question #2](github.com/razzius/reference/issues/2)
+
+### How to make dir different for 1 command in fish?
+
+[Open question #3](github.com/razzius/reference/issues/3)
