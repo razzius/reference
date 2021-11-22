@@ -165,3 +165,11 @@ $ arg_test -d 3
 ### How to show git diff inline, by words
 
 `git diff --color-words`
+### Decimal to hex in shell
+
+[`printf %x <number>`](https://stackoverflow.com/a/378839/1636613)
+
+```
+$ printf %x 10
+a
+```
