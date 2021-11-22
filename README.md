@@ -173,3 +173,7 @@ $ arg_test -d 3
 $ printf %x 10
 a
 ```
+
+### Delete a range of lines in vim ex
+
+[`:6,13d`](https://stackoverflow.com/a/21689505/1636613)
