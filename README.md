@@ -177,3 +177,15 @@ a
 ### Delete a range of lines in vim ex
 
 [`:6,13d`](https://stackoverflow.com/a/21689505/1636613)
+### Print decimal as hex with leading zero, as necessary
+
+[printf("%02x")]()
+
+```
+$ printf %02x 15
+0f
+```
+
+### Can vim be made to accept `-` instead of `,` in range specification?
+
+[Open question #1](github.com/razzius/reference/issues/1)
