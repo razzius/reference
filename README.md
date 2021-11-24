@@ -219,3 +219,7 @@ nnoremap <leader>ih :call MyFunction()<cr>
 ### How to open emacs in terminal
 
 [`emacs -nw`](https://unix.stackexchange.com/a/165725/124123)
+
+### How to sleep in mysql to make an artificially slow query
+
+[`select sleep(5)`](https://stackoverflow.com/a/4284554/1636613)
